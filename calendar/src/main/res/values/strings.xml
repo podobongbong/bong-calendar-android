@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">bongcalendar</string>
+    <string name="test" translatable="false">TEST</string>
+
+    <string name="days_mon">Mon</string>
+    <string name="days_tue">Tue</string>
+    <string name="days_wed">Wed</string>
+    <string name="days_thu">Thu</string>
+    <string name="days_fri">Fri</string>
+    <string name="days_sat">Sat</string>
+    <string name="days_sun">Sun</string>
+
+    <string name="year_month">%s %d</string>
+    <string-array name="months">
+        <item name="month_1">Jan</item>
+        <item name="month_2">Feb</item>
+        <item name="month_3">Mar</item>
+        <item name="month_4">Apr</item>
+        <item name="month_5">May</item>
+        <item name="month_6">Jun</item>
+        <item name="month_7">Jul</item>
+        <item name="month_8">Aug</item>
+        <item name="month_9">Sep</item>
+        <item name="month_10">Oct</item>
+        <item name="month_11">Nov</item>
+        <item name="month_12">Dec</item>
+    </string-array>
+</resources>

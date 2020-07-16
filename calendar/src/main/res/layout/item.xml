@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_day_height"
+        android:gravity="center_vertical|center"
+        android:textColor="@android:color/black"
+        android:text="@string/test"/>
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_icon_height"
+        android:layout_marginTop="@dimen/grid_icon_margin_top"
+        android:layout_marginBottom="@dimen/grid_icon_margin_bottom"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black"/>
+</LinearLayout>

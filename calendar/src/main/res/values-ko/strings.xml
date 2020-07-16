@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="days_mon">월</string>
+    <string name="days_tue">화</string>
+    <string name="days_wed">수</string>
+    <string name="days_thu">목</string>
+    <string name="days_fri">금</string>
+    <string name="days_sat">토</string>
+    <string name="days_sun">일</string>
+
+    <string name="year_month">%d년 %s</string>
+    <string-array name="months">
+        <item name="month_1">1월</item>
+        <item name="month_2">2월</item>
+        <item name="month_3">3월</item>
+        <item name="month_4">4월</item>
+        <item name="month_5">5월</item>
+        <item name="month_6">6월</item>
+        <item name="month_7">7월</item>
+        <item name="month_8">8월</item>
+        <item name="month_9">9월</item>
+        <item name="month_10">10월</item>
+        <item name="month_11">11월</item>
+        <item name="month_12">12월</item>
+    </string-array>
+</resources>
