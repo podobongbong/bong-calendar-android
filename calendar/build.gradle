@@ -19,10 +19,10 @@ publishing {
             artifact androidSourcesJar
             artifact "$buildDir/outputs/aar/calendar-release.aar"
             groupId 'com.podobong.calendar'
-            artifactId 'bongcalendar'
+            artifactId 'calendar'
             version '1.0.0'
             pom {
-                name = 'BongCalenadar'
+                name = 'Calendar'
                 description = 'Custom CalendarView for Android'
                 url = 'https://github.com/podobongbong/bong-calendar-android'
                 licenses {
@@ -48,7 +48,7 @@ publishing {
     }
     repositories {
         maven {
-            url 'https://api.bintray.com/maven/podobongbong/android/bongcalendar/;publish=1'
+            url 'https://api.bintray.com/maven/podobongbong/android/calendar/;publish=1'
         }
     }
 }
@@ -64,7 +64,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = properties.getProperty('bintray.repoName')
-        name = 'bongcalendar'
+        name = 'calendar'
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/podobongbong/bong-calendar-android.git'
         publicDownloadNumbers = true
@@ -108,5 +108,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
 }
